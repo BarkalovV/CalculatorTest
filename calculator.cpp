@@ -112,7 +112,7 @@
              return;
          }
          result = sqrt(operand);
-     } else if (clickedOperator == tr("x\262")) {
+     } else if (clickedOperator == tr("Pow")) {
          result = pow(operand, 2.0);
      } else if (clickedOperator == tr("1/x")) {
          if (operand == 0.0) {
