@@ -300,9 +300,9 @@
          sumSoFar += rightOperand;
      } else if (pendingOperator == tr("-")) {
          sumSoFar -= rightOperand;
-     } else if (pendingOperator == tr("\327")) {
+     } else if (pendingOperator == tr("x")) {
          factorSoFar *= rightOperand;
-     } else if (pendingOperator == tr("\367")) {
+     } else if (pendingOperator == tr("/")) {
          if (rightOperand == 0.0)
              return false;
          factorSoFar /= rightOperand;
